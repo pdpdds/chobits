@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Kernel soruces">
+      <UniqueIdentifier>{ba7d3ed7-07a6-4e7a-850c-067ce380b1dd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Kernel headers">
+      <UniqueIdentifier>{ba5a1274-f0c4-4bc8-a9e0-1de4484b3a71}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Device Driver sources">
+      <UniqueIdentifier>{f967cd59-67c1-4906-900e-2228323b219a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{31032e02-75ff-4696-90b8-0d49bd6f5362}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library sources">
+      <UniqueIdentifier>{2a15d5da-3538-4125-977a-b5c99192d73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library headers">
+      <UniqueIdentifier>{71544759-5bf0-494a-9132-d42402ccdc5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device Driver headers">
+      <UniqueIdentifier>{4323e48e-68c1-449a-9620-5d7466235e92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shell headers">
+      <UniqueIdentifier>{dce0af2e-21a5-4980-8047-30bf8b56bfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shell sources">
+      <UniqueIdentifier>{628753dd-8574-4b2a-b9d1-1e1834f426d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hal_asm.asm">
+      <Filter>Kernel soruces</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chobits.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="hal.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="kernel.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="mmanager.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="process.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="syscall.c">
+      <Filter>Kernel soruces</Filter>
+    </ClCompile>
+    <ClCompile Include="6845crt.c">
+      <Filter>Device Driver sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fdddrv.c">
+      <Filter>Device Driver sources</Filter>
+    </ClCompile>
+    <ClCompile Include="kbddrv.c">
+      <Filter>Device Driver sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vgadrv.c">
+      <Filter>Device Driver sources</Filter>
+    </ClCompile>
+    <ClCompile Include="directy.c">
+      <Filter>Library sources</Filter>
+    </ClCompile>
+    <ClCompile Include="string.c">
+      <Filter>Library sources</Filter>
+    </ClCompile>
+    <ClCompile Include="vsprintf.c">
+      <Filter>Library sources</Filter>
+    </ClCompile>
+    <ClCompile Include="fatfs.c">
+      <Filter>Shell sources</Filter>
+    </ClCompile>
+    <ClCompile Include="hshell.c">
+      <Filter>Shell sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="chobits.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="sys_desc.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall_type.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="video_def.h">
+      <Filter>Kernel headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ctype.h">
+      <Filter>Library headers</Filter>
+    </ClInclude>
+    <ClInclude Include="directy.h">
+      <Filter>Library headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdarg.h">
+      <Filter>Library headers</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Library headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vsprintf.h">
+      <Filter>Library headers</Filter>
+    </ClInclude>
+    <ClInclude Include="6845crt.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fdddrv.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fonts.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="kbddrv.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="key_def.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="vgadrv.h">
+      <Filter>Device Driver headers</Filter>
+    </ClInclude>
+    <ClInclude Include="fatfs.h">
+      <Filter>Shell headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hshell.h">
+      <Filter>Shell headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="docs\6845crt.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="docs\8042kbd.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="docs\8259pic.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="docs\8272fdd.txt">
+      <Filter>Documents</Filter>
+    </Text>
+    <Text Include="docs\ports.txt">
+      <Filter>Documents</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="bootsect.asm">
+      <Filter>Kernel soruces</Filter>
+    </CustomBuild>
+    <CustomBuild Include="entry.asm">
+      <Filter>Kernel soruces</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

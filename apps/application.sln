@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "helloworld", "helloworld\helloworld.vcxproj", "{59B80E98-7F70-49D1-8087-FF05BB9C4142}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "snake", "snake\snake.vcxproj", "{67BE2471-537C-43DF-9594-4DCC9E982E07}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sexy", "sexy\sexy.vcxproj", "{4654D4B4-F479-43EF-84A5-8F2D374D9525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B80E98-7F70-49D1-8087-FF05BB9C4142}.Debug|x86.ActiveCfg = Debug|Win32
+		{59B80E98-7F70-49D1-8087-FF05BB9C4142}.Debug|x86.Build.0 = Debug|Win32
+		{59B80E98-7F70-49D1-8087-FF05BB9C4142}.Release|x86.ActiveCfg = Release|Win32
+		{59B80E98-7F70-49D1-8087-FF05BB9C4142}.Release|x86.Build.0 = Release|Win32
+		{67BE2471-537C-43DF-9594-4DCC9E982E07}.Debug|x86.ActiveCfg = Debug|Win32
+		{67BE2471-537C-43DF-9594-4DCC9E982E07}.Debug|x86.Build.0 = Debug|Win32
+		{67BE2471-537C-43DF-9594-4DCC9E982E07}.Release|x86.ActiveCfg = Release|Win32
+		{67BE2471-537C-43DF-9594-4DCC9E982E07}.Release|x86.Build.0 = Release|Win32
+		{4654D4B4-F479-43EF-84A5-8F2D374D9525}.Debug|x86.ActiveCfg = Debug|Win32
+		{4654D4B4-F479-43EF-84A5-8F2D374D9525}.Debug|x86.Build.0 = Debug|Win32
+		{4654D4B4-F479-43EF-84A5-8F2D374D9525}.Release|x86.ActiveCfg = Release|Win32
+		{4654D4B4-F479-43EF-84A5-8F2D374D9525}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B56D521-3C3E-4E8A-BC32-8514C74E912B}
+	EndGlobalSection
+EndGlobal
