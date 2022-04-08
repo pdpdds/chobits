@@ -13,6 +13,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{5E7E83B6-8027-4EF4-8447-4B25CE6A928D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
+    <ProjectName>chobits</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -128,7 +129,7 @@ ml /c /Fl /coff hal_asm.asm
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="bootsect.asm">
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nasm -s -Xvc -f bin bootsect.asm -o disk\bootsect.bin -l result\bootsect.lst</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">nasm -s -Xvc -f bin bootsect.asm -o disk\bootsect.bin</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bootsect.bin</Outputs>
     </CustomBuild>
     <CustomBuild Include="entry.asm">
