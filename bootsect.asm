@@ -211,7 +211,7 @@ main:
 		cli
 		mov		ax, LDRSEG
 		mov		ds, ax
-		jmp		LDRSEG:1000h			; jump to Chobits OS
+		jmp		LDRSEG:0400h			; jump to Chobits OS
 		
 
 ;===============================================================================
